@@ -8534,7 +8534,7 @@ react-dev-utils@^9.1.0:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@^16.11.0, react-dom@^16.12.0:
+react-dom@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.12.0.tgz#0da4b714b8d13c2038c9396b54a92baea633fe11"
   integrity sha512-LMxFfAGrcS3kETtQaCkTKjMiifahaMySFDn71fZUNpPHZQEzmk/GiAeIT8JSOrHB23fnuCOMruL2a8NYlw+8Gw==
@@ -8615,7 +8615,7 @@ react-scripts@3.2.0:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@^16.11.0, react@^16.12.0:
+react@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
   integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
@@ -9897,14 +9897,11 @@ tar@^4:
     safe-buffer "^5.1.2"
     yallist "^3.0.2"
 
-tb-awesome-ui@0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/tb-awesome-ui/-/tb-awesome-ui-0.1.2.tgz#1358710aab8ef4a4bdd893b6046cf0c88846d3af"
-  integrity sha512-iVxmqBa7RMu2dI2OMUTjc1e0QkdWc6AMkqKmdGaWkgIdmkQsv8XN9/cPVUmpdAcLvTXAIr/o/ZvdAHLHgiblHg==
+tb-awesome-ui@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/tb-awesome-ui/-/tb-awesome-ui-1.1.0.tgz#8785044d6f78f80811176a994b81a200d6c1767a"
+  integrity sha512-NWB6X0m6v3FZNZQbTnqVJ2jcfwS1xXFMjbE6v0lW3+PXLfecSPFsS0wVeUmwA9RuNb6BzyJ6pFCq0IsSXHid8A==
   dependencies:
-    react "^16.11.0"
-    react-dom "^16.11.0"
-    react-scripts "3.2.0"
     styled-components "^4.4.1"
     styled-theming "^2.2.0"
 

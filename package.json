@@ -6,7 +6,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0",
-    "tb-awesome-ui": "0.1.2"
+    "tb-awesome-ui": "1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
