@@ -1,13 +1,18 @@
 import React from 'react';
-import {Button} from 'tb-awesome-ui';
-import logo from './logo.svg';
+import { ThemeProvider } from "styled-components";
+import { Button, buttonStyles } from 'tb-awesome-ui';
 import './App.css';
 
-function App() {
+import MyButton from "./Button";
+
+function App(props) {
   return (
-    <div className="App">
-      <Button>Hey!</Button>
-    </div>
+    <ThemeProvider theme={{ mode: "dark" }}>
+      <div className="App">
+        <MyButton>Hey!</MyButton>
+        <Button theme={{ mode: "dark" }}>Hey!</Button>
+      </div>
+    </ThemeProvider>
   );
 }
 
